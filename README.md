@@ -6,7 +6,7 @@ El sitio es público y no exige una cuenta ni inicio de sesión. Conserva localm
 
 ## Biblioteca compartida
 
-La interfaz estática consulta una API separada en `https://estudio-uned-lugo.atencionalclie787805.chatgpt.site/api/library`. Esa API está alojada actualmente en Sites/Cloudflare y no forma parte de este repositorio. Los archivos y sus registros tampoco se incluyen aquí. Su migración o continuidad operativa se gestiona por separado.
+La colección inicial de 14 PDF del primer cuatrimestre se publica desde `docs/apuntes/` y se describe en `docs/apuntes/manifest.json`. Se carga junto con los aportes posteriores, que siguen usando la API separada en `https://estudio-uned-lugo.atencionalclie787805.chatgpt.site/api/library`, alojada actualmente en Sites/Cloudflare y fuera de este repositorio. Los aportes posteriores se pueden retirar desde el navegador que los creó; la colección inicial se actualiza o retira mediante mantenimiento del repositorio.
 
 Cada navegador genera localmente un identificador aleatorio para poder retirar sus propios aportes. No se transmite en URLs, no se muestra en la página y no se exporta con la planificación. Si el navegador bloquea el almacenamiento local, el panel informa de que el identificador solo durará hasta recargar la página.
 
