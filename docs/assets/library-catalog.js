@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const INITIAL_ID = /^initial-[a-z0-9-]+$/;
-  const INITIAL_PATH = /^apuntes\/[A-Za-z0-9][A-Za-z0-9._-]*\.pdf$/;
+  const INITIAL_PATH = /^apuntes\/[A-Za-z0-9][A-Za-z0-9._-]*\.(?:pdf|zip)$/;
   const SHA256 = /^[a-f0-9]{64}$/;
   const text = value => typeof value === 'string' && value.trim();
   const safeInitialPath = value => typeof value === 'string' && INITIAL_PATH.test(value);

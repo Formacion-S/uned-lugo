@@ -44,7 +44,7 @@
   };
   const loadInitial = async () => {
     if (!INITIAL_MANIFEST || !CATALOG) throw new Error('La colección inicial no está disponible.');
-    const response = await fetch(INITIAL_MANIFEST, { credentials: 'same-origin' });
+    const response = await fetch(INITIAL_MANIFEST, { credentials: 'same-origin', cache: 'no-store' });
     if (!response.ok) throw new Error('No se pudo cargar la colección inicial.');
     initialItems = CATALOG.normalizeInitialItems(await response.json(), subjectCodes, document.baseURI);
     return initialItems;

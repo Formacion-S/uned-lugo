@@ -6,7 +6,9 @@ El sitio es público y no exige una cuenta ni inicio de sesión. Conserva localm
 
 ## Biblioteca compartida
 
-La colección inicial de 14 PDF del primer cuatrimestre se publica desde `docs/apuntes/` y se describe en `docs/apuntes/manifest.json`. Se carga junto con los aportes posteriores, que siguen usando la API separada en `https://estudio-uned-lugo.atencionalclie787805.chatgpt.site/api/library`, alojada actualmente en Sites/Cloudflare y fuera de este repositorio. Los aportes posteriores se pueden retirar desde el navegador que los creó; la colección inicial se actualiza o retira mediante mantenimiento del repositorio.
+La colección compartida de 43 recursos del primer cuatrimestre (42 PDF y un ZIP) se publica desde `docs/apuntes/` y se describe en `docs/apuntes/manifest.json`. Incluye los 14 PDF iniciales y 29 materiales únicos descargados el 6 de octubre de 2026, clasificados por contenido. Se carga junto con los aportes posteriores, que siguen usando la API separada en `https://estudio-uned-lugo.atencionalclie787805.chatgpt.site/api/library`, alojada actualmente en Sites/Cloudflare y fuera de este repositorio. Los aportes posteriores se pueden retirar desde el navegador que los creó; la colección del repositorio se actualiza o retira mediante su mantenimiento.
+
+La ampliación añade 23 recursos a Programación, 3 a Álgebra y uno a Computadores, Estructuras de Datos y Algoritmos y Modelado Estadístico. La guía de Python está marcada como apoyo transversal. El Tema 11 de estructuras de datos se conserva en Programación, mientras que `Apuntes_EDA.pdf` pertenece a Estructuras de Datos y Algoritmos. Los PDF y el ZIP conservan sus bytes, autoría y avisos originales; la copia duplicada de Metodologías 2 se publica una sola vez.
 
 Cada navegador genera localmente un identificador aleatorio para poder retirar sus propios aportes. No se transmite en URLs, no se muestra en la página y no se exporta con la planificación. Si el navegador bloquea el almacenamiento local, el panel informa de que el identificador solo durará hasta recargar la página.
 
